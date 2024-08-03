@@ -8,21 +8,21 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Fynn Lohre"
+title                    : "Your Name / Site Title"
 title_separator          : "-"
-name                     : &name "Fynn Lohre"
+name                     : &name "Your Name"
 description              : &description "personal description"
-url                      : https://varfynn.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "VARFynn/VARFynn.github.io"
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "me.jpeg"
-  name             : "Fynn Lohre"
+  avatar           : "profile.png"
+  name             : "Fynn Lohre, MSc"
   pronouns         : # example: "she/her"  
   bio              : "PhD Fellow"
   location         : "Aarhus, Denmark"
@@ -48,7 +48,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : # "bsky.app" # Replace this with you Bluesky username
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : Fynn-Lohre
+  linkedin         : # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -65,7 +65,7 @@ author:
   steam            : # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : FynnLohre
+  twitter          : # Username for X / Twitter
   vine             : # Username
   weibo            : # Username
   wikipedia        : # Username
