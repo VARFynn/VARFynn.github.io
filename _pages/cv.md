@@ -9,29 +9,22 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my CV (Academia) or my Resume (Consulting). 
+You can download my Curriculum Vitae (for academia) or my Resume (for consulting) for more detailed information.
 
-
-
-Education
+🧑‍💼 Current Affiliations
 ======
-* Ph.D. in Economics, Aarhus University, 2027 (expected)
-* M.S. in Economics (Science Track), Vienna School of Economics and Business, 2024
-* B.S. in Economics, Leuphana University, 2022
+* Since 09/2024: Aarhus University
+  * PhD Fellow, Department of Economics and Business Economics
+  * Supervisor: [Prof. Elena Mattana](https://sites.google.com/site/elenamattana/home) & [Prof. Bastian Schulz](https://sites.google.com/site/schulzbastian/home)
 
-Work experience
+* Since 03/2024: Fraunhofer Institute for Applied Information Technology FIT
+  * External Research Fellow, Microsimulation & Econometric Data Analysis
+  * Supervisor: [Sascha Strobl, MSc](https://www.fit.fraunhofer.de/de/geschaeftsfelder/mikrosimulation-und-oekonometrische-datenanalyse/team/strobl.html)
+
+🎓 Education
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* PhD in Economics, Aarhus University, 2027 (expected)
+* MSc in Economics (Science Track), Vienna School of Economics and Business, 2024
+* BSc in Economics, Leuphana University, 2022
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
