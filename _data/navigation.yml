@@ -21,7 +21,7 @@ main:
  #   url: /year-archive/
     
   - title: "CV"
-    url: www.fynn-lohre.com/cv/
+    url: "www.fynn-lohre.com/cv/"
     
   # - title: "Guide"
   #  url: /markdown/
