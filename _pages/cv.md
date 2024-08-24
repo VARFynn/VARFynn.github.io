@@ -11,7 +11,7 @@ redirect_from:
 
 You can download my Curriculum Vitae (academia) or my Resume (consulting) for more detailed information.
 
-🧑‍💼 Current Affiliations
+🧑‍💼 Current Research Affiliations
 ======
 * Since 09/2024: Aarhus University
   * PhD Fellow, Department of Economics and Business Economics
