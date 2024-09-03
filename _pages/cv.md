@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my Curriculum Vitae (academia) or my Resume (consulting) for more detailed information.
+You can download my [Curriculum Vitae (academia)](/files/CV_Lohre) or my Resume (consulting) for more detailed information.
 
 🧑‍💼 Current Research Affiliations
 ======
