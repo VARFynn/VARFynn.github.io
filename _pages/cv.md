@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-You can download my [Curriculum Vitae (academia)](/files/CV_Lohre) or my Resume (consulting) for more detailed information.
+You can download my [Curriculum Vitae (academia)](https://nbviewer.org/github/VARFynn/VARFynn.github.io/blob/0ef6037d1e6ae6c381058caa0404750ec638c88d/files/CV_Lohre.pdf) or my [Resume (consulting)](https://nbviewer.org/github/VARFynn/VARFynn.github.io/blob/master/files/Resume_Lohre.pdf) for more detailed information.
 
 🧑‍💼 Current Research Affiliations
 ======
