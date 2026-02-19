@@ -1,12 +1,11 @@
 ---
 permalink: /
+title: "👋 Welcome!"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-# 👋 Welcome!
 
 <!-- Add vertical space -->
 <p style="margin-bottom: 25px;"></p>

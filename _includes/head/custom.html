@@ -49,9 +49,15 @@
     color: #7a8288;
     font-size: 0.8em;
     transition: border-color 0.2s ease, color 0.2s ease;
-    z-index: 30;
+    z-index: 15;
     padding: 0;
     line-height: 1;
+  }
+  /* On mobile the hamburger button appears at far right — push toggle left of it */
+  @media (max-width: 768px) {
+    .dark-mode-toggle {
+      right: 3.2rem;
+    }
   }
   .dark-mode-toggle:hover {
     border-color: #7a8288;
@@ -59,6 +65,7 @@
   }
 
   /* Dark mode overrides */
+  html.dark-mode,
   html.dark-mode body {
     background-color: #1a1a1a;
     color: #c8c8c8;
@@ -67,14 +74,18 @@
     background: #1a1a1a;
     border-bottom-color: #333;
   }
-  html.dark-mode .masthead a {
+  /* greedy-nav has its own background in compiled CSS — must override directly */
+  html.dark-mode .greedy-nav {
+    background: #1a1a1a;
+  }
+  html.dark-mode .greedy-nav a {
     color: #c8c8c8;
   }
-  html.dark-mode .masthead a:hover {
+  html.dark-mode .greedy-nav a:hover {
     color: #fff;
   }
   html.dark-mode .greedy-nav button {
-    background: #1a1a1a;
+    background-color: #333;
   }
   html.dark-mode .navicon,
   html.dark-mode .navicon:before,
@@ -83,11 +94,15 @@
   }
   html.dark-mode .hidden-links {
     background: #242424;
-    border: 1px solid #333;
+    border: 1px solid #444;
     box-shadow: 0 2px 8px rgba(0,0,0,0.5);
   }
   html.dark-mode .hidden-links a {
     color: #c8c8c8;
+  }
+  html.dark-mode .hidden-links a:hover {
+    background: #333;
+    color: #fff;
   }
   html.dark-mode a {
     color: #7ec8e3;
@@ -96,13 +111,19 @@
   html.dark-mode a:active {
     color: #a5d8ef;
   }
+  /* footer: background-color comes from $lighter-gray in compiled CSS */
   html.dark-mode .page__footer {
-    background-color: #111;
+    background-color: #1a1a1a;
     color: #888;
     border-top: 1px solid #333;
   }
+  html.dark-mode .page__footer .fas,
+  html.dark-mode .page__footer .fab,
+  html.dark-mode .page__footer .far {
+    color: #888;
+  }
   html.dark-mode .page__footer a {
-    color: #7ec8e3;
+    color: #999;
   }
   html.dark-mode .page__footer-copyright {
     color: #666;
@@ -213,8 +234,7 @@
   (function() {
     try {
       var saved = localStorage.getItem('darkMode');
-      var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-      if (saved === 'true' || (saved === null && prefersDark)) {
+      if (saved === 'true') {
         document.documentElement.classList.add('dark-mode');
       }
     } catch(e) {}
