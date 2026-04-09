@@ -53,10 +53,19 @@
     padding: 0;
     line-height: 1;
   }
-  /* On mobile the hamburger button appears at far right — push toggle left of it */
+  /* On mobile: place toggle inline next to the site name */
   @media (max-width: 768px) {
     .dark-mode-toggle {
-      right: 3.2rem;
+      position: static;
+      display: inline-flex;
+      transform: none;
+      top: auto;
+      right: auto;
+      vertical-align: middle;
+      margin-left: 0.5rem;
+    }
+    .masthead__menu-item--lg {
+      padding-left: 0.6rem;
     }
   }
   .dark-mode-toggle:hover {
